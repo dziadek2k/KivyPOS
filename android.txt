@@ -1,0 +1,3 @@
+title=Buttons
+author=OASU Energo
+orientation=landscape

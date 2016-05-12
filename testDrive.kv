@@ -1,0 +1,17 @@
+#:kivy 1.0
+<Demo>:
+    cols: 1
+
+    BoxLayout:
+        orientation: 'vertical'
+        Button:
+            text: 'Printer'
+            on_press: root.do_print_action()
+
+        Button:
+            text: 'Scanner'
+            on_press: do_scanner_action
+
+        Button:
+            text: 'MoneyBox'
+            on_press: do_moneybox_action
